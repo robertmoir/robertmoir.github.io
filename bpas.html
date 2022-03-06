@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Contributions to the BPAS</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<header id="header">
+    <a href="index.html" class="title">Robert Moir's Portfolio</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">BPAS Library</a></li>
+            <!--						<li><a href="elements.html">Elements</a></li>-->
+        </ul>
+    </nav>
+</header>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <h1 class="major">Contributions to the BPAS Library <a href="https://github.com/orcca-uwo/BPAS"><span
+                    class="fab fa-github"></span></a></h1>
+            <span class="image fit"><img src="images/eve-long.png" alt=""/></span>
+            <p>
+                The <b><a href="http://bpaslib.org">basic polynomial algebra subprograms (BPAS) library<a></a></b> is a
+                <b>C/C++ library</b> for <b>high-performance computer algebra</b>. It has optimized algorithms for the
+                arithemtic and factorization of univariate and multivariate polynomials as well as the ability to <b>solve
+                nonlinear systems of equations</b> (mutual zeros of a set of multivariate polynomials) <b>using</b>
+                tools from <b>computational algebraic geometry</b>.
+            </p>
+            <p>
+                The software uses <b>C++ to organize</b> the complex hierarchy of <b>algebraic structures</b> and <b>C
+                for efficient low-level implementation</b> of algorithms. Algorithms from the theory of regular chains
+                are used to compute efficient solutions to nonlinear systems, and the implementation uses parallel
+                computing to optimize running time.
+            </p>
+            <p>
+                I have made <b>several important contributions</b> to the BPAS library, which include:
+            </p>
+            <ul>
+                <li><b>C++ classes for</b> representing solution components (triangular sets and regular chains) and
+                    containing the methods for <b>nonlinear system solving</b></li>
+                <li>co-implemented <b>parallel system solving</b> for polynomial systems using divide-and-conquer and
+                    producer-consumer parallelism
+                </li>
+                <li><b>C and C++</b> code <b>for efficient factorization</b> of univariate polynomials (relying partly
+                    on <a href="https://libntl.org/">NTL</a>)
+                </li>
+                <li><b>C++ classes for</b> computing <b>exact and approximate symbolic integrals</b> of rational
+                    functions
+                </li>
+            </ul>
+            <p>
+                The <b>source code</b> is available <a href="https://github.com/orcca-uwo/BPAS">here</a> or <b>via</b>
+                the <b>github logo</b> above.
+            </p>
+            <p>
+                The <a href="images/eve.jpg">3D rendering</a> of the "Eve" algebraic surface appearing on the on the
+                main page of this site was obtained from
+                <a href="https://homepage.univie.ac.at/herwig.hauser/bildergalerie/gallery.html">homepage.univie.ac.at</a>.
+                Based on this image I used <a href="https://www.gimp.org/">gimp</a> to construct the image above, which
+                includes the trivariate polynomial that describes "Eve" (technically Eve is the real algebraic surface
+                corresponding to the real zeros of the polynomial above; an example of how this real-zero-set can be
+                computed is available
+                <a href="https://www.researchgate.net/figure/Output-of-the-RealTriangularize-command-for-the-EVE-surface_fig2_235409607">here</a>).
+            </p>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper alt">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
